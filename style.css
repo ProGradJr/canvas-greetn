@@ -31,7 +31,6 @@ header {
     min-height: 300px;
     margin: 2% 0%;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .image-container>img {
@@ -89,6 +88,10 @@ a {
     .image-container>img {
         width: 150px;
         margin: 5px;
+    }
+
+    .image-container {
+        flex-wrap: wrap;
     }
 
     .message-container {
